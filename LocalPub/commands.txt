@@ -1,0 +1,2 @@
+node populatedb mongodb+srv://AllaPliskovskaya:ofsdQ7Xt@localpub.f3cbe.mongodb.net/LocalPub?retryWrites=true&w=majority
+SET DEBUG=express-locallibrary-tutorial:* & npm run devstart

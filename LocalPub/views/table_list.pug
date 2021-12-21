@@ -1,0 +1,12 @@
+extends layout
+
+block content
+    h1= title
+    ul
+        each table in table_list
+            li №#{table.number} 
+                | Max people: #{table.capacity}
+                | Waiter: #{table.waiter.first_name + ' ' + table.waiter.last_name}
+                | Location: #{table.location}
+        else
+            li There are no tables.
